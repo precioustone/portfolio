@@ -283,13 +283,14 @@ body{
 #about{
     background-color: $background;
     width: 100% !important;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 #about-header{
-    margin: 30px 50px 50px;
+    margin: 30px auto 50px auto;
     text-align: center;
     align-items: center;
+    width: 70%;
 }
 
 .headers{
@@ -311,6 +312,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+
+#skill{
+    padding: 30px;
+}
+
+.skill{
+    width: 100px;
+    height: 100px;
 }
 
 .underline-inverse{
@@ -354,8 +364,8 @@ body{
     fill: $orange-theme-color !important;
 }
 
-.skill.CircularProgressbar-trail {
-stroke: gray;
+.skill .CircularProgressbar-trail {
+stroke: #c6c6c6;
 }
 
 #my-story{
@@ -363,7 +373,19 @@ stroke: gray;
     margin: 30px 0;
 }
 
+.vertical-timeline-element-title{
+    font-size: 15px !important;
+    font-weight: bolder;
+}
 
+.vertical-timeline-element-subtitle{
+    font-size: 15px !important;
+    font-weight: bolder;
+}
+
+.timeline-content{
+    font-size: 15px !important;
+}
 
 
 ////////////FOOTER///////////////
@@ -393,6 +415,19 @@ stroke: gray;
     text-align: left;
 }
 
+.submit{
+    color: $light-text;
+    font-weight: bold;
+    border: solid 2px $light-text;
+}
+
+.submit:hover{
+    color: $blue-theme-color;
+    font-weight: bold;
+    border: solid 2px $light-text;
+    background-color: $light-text;
+}
+
 #contact-header-cont .underline-inverse{
     margin-left: 45px;
     margin-bottom: 10px;
@@ -419,3 +454,4 @@ stroke: gray;
     color: $light-text !important;
     margin-top: 20px;
 }
+

@@ -20,6 +20,7 @@ export function MessageForm(){
                     <textarea className="form-control" id="message" rows="5" placeholder="Message"></textarea>
                 </div>
             </div>
+            <button className="btn submit">Submit</button>
         </div>
     );
 }

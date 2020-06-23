@@ -5,10 +5,10 @@ import { config, library } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
  
-import { faBars, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { fab, faTwitter, faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
  
-library.add(faBars, faHome, fab, faTwitter, faFacebook, faInstagram, faGithub, faLinkedin);
+library.add(faBars, faHome, faBriefcase, fab, faTwitter, faFacebook, faInstagram, faGithub, faLinkedin);
  
 class MyApp extends App {
   render() {

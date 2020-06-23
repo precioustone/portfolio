@@ -19,7 +19,7 @@ export default function Home(){
         <MainLayout toogle={!isOpen ? 'slide-out': 'slide-in'}>
             <Hero />
             <section id="about">
-                <div id="about-content" className="container">
+                <div id="about-content" className="container-fluid">
                     <header id="about-header">
                         <h4  className="headers">About Me</h4>
                         <div className="underline"></div>
@@ -76,6 +76,7 @@ export default function Home(){
                             </p>
                         </div>
                         <div className="col-md-6">
+                            <h5 className="subheaders">Professional Experience</h5>
                             <Timeline />
                         </div>
                     </div>
